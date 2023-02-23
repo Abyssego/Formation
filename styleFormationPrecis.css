@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:wght@400;700&display=swap');
+body{
+  background-color: #4F3A52;
+}
+
+/* Début bar navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d3f5b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  font-family: Oregano;
+
+}
+
+.nav {
+  float: left;
+}
+
+#reste {
+  float: right;
+}
+
+
+
+li a {
+  display: block;
+  color: #a8caba;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 37px
+}
+
+li a:hover:not(.nav) {
+  background-color: #111;
+}
+
+/* Fin bar navigation */
+a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #a8caba;
+}
+/* Début header */
+
+#logo {
+  width: 75px;
+  height: 70px;
+}
+
+#formulaire {
+  margin-top: 5%;
+}
+
+
+
+#allDiv {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.row {
+  margin: auto 0;
+}
+
+.card {
+  padding: 2rem;
+  width: 40%;
+  margin-left: 30%;
+}
+.card .menu-content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.card .menu-content::before, .card .menu-content::after {
+  content: "";
+  display: table;
+}
+.card .menu-content::after {
+  clear: both;
+}
+.card .menu-content li {
+  display: inline-block;
+}
+.card .menu-content a {
+  color: #fff;
+}
+.card .wrapper {
+  background-color: #fff;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.card .wrapper:hover .data {
+  transform: translateY(0);
+}
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(80px + 1em));
+  transition: transform 0.3s;
+}
+.card .data .content {
+  padding: 1.5em;
+  position: relative;
+  z-index: 1;
+}
+.card .type {
+  font-size: 12px;
+}
+.card .title {
+  margin-top: 10px;
+}
+.card .text {
+  height: 70px;
+  margin: 0;
+}
+.card input[type=checkbox] {
+  display: none;
+}
+.card input[type=checkbox]:checked + .menu-content {
+  transform: translateY(-60px);
+}
+
+.card .boutton {
+  border-radius: 10px;
+  background-color: #4F3A52;
+  border: 0px;
+  font-family: Oregano;
+  font-size: 20px;
+  opacity: 0.60;
+  color: #a8caba;
+}
+
+
+
+/*.example-2 .wrapper {
+  background: url(html.jpg) 50% 1%/cover no-repeat;
+}*/
+
+
+
+.example-2 .content {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.example-2 .title a {
+  color: white;
+}
+
+/* Début Affichage photo*/
+#photo3 .wrapper {
+  background: url(dessin/HTML.png) 50% 1%/cover no-repeat;
+}
+
+#photo4.wrapper {
+  background: url(dessin/css.png) 50% 1%/cover no-repeat;
+}
+
+#photo1 .wrapper {
+  background: url(dessin/PHP.png) 50% 1%/cover no-repeat;
+}
+
+#photo5 .wrapper {
+  background: url(dessin/JS.png) 50% 1%/cover no-repeat;
+}
+
+#photo6 .wrapper {
+  background: url(dessin/SQL.png) 50% 1%/cover no-repeat;
+}
+
+#photo7 .wrapper {
+  background: url(dessin/C.png) 50% 1%/cover no-repeat;
+}
+
+#photo8 .wrapper {
+  background: url(dessin/Figma.png) 50% 1%/cover no-repeat;
+}
+
+#photo9 .wrapper {
+  background: url(dessin/vs.png) 50% 1%/cover no-repeat;
+}
+
+#photo10 .wrapper {
+  background: url(dessin/pixlr.png) 50% 1%/cover no-repeat;
+}
+
+#photo444 .wrapper {
+  background: url(dessin/discord.png) 50% 1%/cover no-repeat;
+}
+
+#photo555 .wrapper {
+  background: url(dessin/google.png) 50% 1%/cover no-repeat;
+}
+
+#photo666 .wrapper {
+  background: url(dessin/opera.png) 50% 1%/cover no-repeat;
+}
+
+#photo2 .wrapper {
+  background: url(dessine/Word.png) 50% 1%/cover no-repeat;
+}
+
+#photo12 .wrapper {
+  background: url(dessin/power.png) 50% 1%/cover no-repeat;
+}
+
+#photo11 .wrapper {
+  background: url(dessin/python.png) 50% 1%/cover no-repeat;
+}
+
+/* Fin Affichage photo*/
+
+
+select {
+  width: 50%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #a8caba;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+body{
+	background-color: #4F3A52;
+}
+
+/* Début bar navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d3f5b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  font-family: Oregano;
+
+}
+
+.nav {
+  float: left;
+}
+
+#reste {
+  float: right;
+}
+
+
+
+li a {
+  display: block;
+  color: #a8caba;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 37px
+}
+
+li a:hover:not(.nav) {
+  background-color: #111;
+}
+
+/* Fin bar navigation */
+
+/* Début header */
+
+#logo {
+  width: 75px;
+  height: 70px;
+}
+
+input {
+	border-radius: 4px ;
+	border: 2px solid #54385a;
+	margin-bottom: 1%;
+	background: #624565;
+	color: #a8caba;
+	text-shadow: #bfd3c9;
+	width: 500px;
+	height: 50px;
+}
+
+#message {
+	width: 500px;
+	height: 200px;
+}
+
+input::placeholder {
+	color: #a8caba;
+}
+
+button {
+	border-radius: 4px ;
+	border: 2px solid #54385a;
+	margin-bottom: 1%;
+	background: #624565;
+	color: #a8caba;
+	text-shadow: #bfd3c9;
+	width: 100px;
+	height: 25px;	
+}
+
+#corps {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 9%;
+	justify-content: space-around;
+}
+
+
+#formulaire {
+	display: flex;
+	flex-direction: column;
+}
+
+#information {
+	display: flex;
+	flex-direction: column;
+	font-family: Comfortaa;
+	font-size: 14px;
+}
+
+form {
+	text-align: center;
+}
+
