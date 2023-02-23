@@ -4,3 +4,4 @@ Hello, just a little message to say how to mange the repositories, if you downlo
 First, the folder "dessin" contain all the image, 
 then, the folder "Formation", contain white page to imitate a system when downloading a formation,
 To finish, the data base will be with all the file which are not really ordered so be careful.
+There are certains things which are not finish and do not forget to change the password of the database :)
